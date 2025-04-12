@@ -38,10 +38,7 @@ public class Robot extends TimedRobot {
   private String m_autoSelected;
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
   
-  TalonFX rightWheelFrontFx = new TalonFX(0, "rio");
-  TalonFX leftWheelFrontFx = new TalonFX(1, "rio");
-  TalonFX rightWheelBackFx = new TalonFX(0, "rio");
-  TalonFX leftWheelBackFx = new TalonFX(0, "rio");
+  
   /**
    * This function is run when the robot is first started up and should be used for any
    * initialization code.
